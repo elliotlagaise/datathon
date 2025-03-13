@@ -1,0 +1,44 @@
+[
+    {
+        "Code_Parcelle": "69123",
+        "coords": {
+            "lon": 4.957667121338259,
+            "lat": 45.753282463516655
+        },
+        "scoring": "4.55"
+    },
+    {
+        "Code_Parcelle": "63123",
+        "coords": {
+            "lon": 4.840000,
+            "lat": 45.760000
+        },
+        "scoring": "3.55"
+    },
+    {
+        "Code_Parcelle": "68123",
+        "coords": {
+            "lon": 4.860000,
+            "lat": 45.760000
+        },
+        "scoring": "2.55"
+    },
+
+    {
+        "Code_Parcelle": "67123",
+        "coords": {
+            "lon": 4.850000,
+            "lat": 45.750000
+        },
+        "scoring": "1.55"
+    },
+
+    {
+        "Code_Parcelle": "62123",
+        "coords": {
+            "lon": 4.890000,
+            "lat": 45.760000
+        },
+        "scoring": "0.55"
+    }
+]

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link
+			rel="icon"
+			type="image/x-icon"
+			href="https://openlayers.org/favicon.ico"
+		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Openlayers</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<div class="logo">
+					<img
+						src="https://hoplapowercharge.fr/wp-content/uploads/2023/09/Logo-couleur.svg"
+						alt="PowerCharge Logo"
+					/>
+				</div>
+				<div id="headerInfo"></div>
+				<div class="main_refresh">
+					<p id="main_refresh_timer">Dernier rafraichissement: -</p>
+					<p id="main_refresh_btn">Actualiser les données</p>
+				</div>
+			</div>
+			<div id="map">
+				<div id="color-bar">
+					<div id="segment-5">4 à 5</div>
+					<div id="segment-4">3 à 4</div>
+					<div id="segment-3">2 à 3</div>
+					<div id="segment-2">1 à 2</div>
+					<div id="segment-1">0 à 1</div>
+				</div>
+			</div>
+			<div id="data">
+				<p id="scoring-label"></p>
+			</div>
+		</div>
+		<script type="module" src="main.js"></script>
+	</body>
+</html>
